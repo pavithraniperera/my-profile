@@ -5,21 +5,38 @@
     <meta name="viewport" content="width = device-width , initial-scale =1.0">
     <title>Pavithrani</title>
     <link rel="icon" href="assets/images/PavithraniLogo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="styles/Home.css">
+    <link rel="stylesheet" href="assets/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/fontawesome-free-6.5.1-web/css/all.min.css">
 </head>
 <body>
 <!--This is header of website-->
 <header>
  <nav>
-     <ul type="none">
+     <!-- Logo -->
+     <a href="index.html"><img src="assets/images/PavithraniLogo.jpg" alt="Logo" title="Logo" WIDTH="100" HEIGHT="100" class="logo"></a>
+
+     <!-- Hamburger icon -->
+     <label class="hamb" for="side-menu"> <i class="fas fa-bars"></i></label>
+     <input class="side-menu" type="checkbox" id="side-menu"/>
+
+
+
+     </button>
+     <!-- Menu -->
+     <ul type="none" class="menu-bar">
          <!-- Each list item represents a navigation link to sections-->
-         <li><a href="index.html"><img src="assets/images/PavithraniLogo.jpg" alt="Logo" title="Logo" WIDTH="100" HEIGHT="100"></a></li>
+
          <li><a href="About.html#about">About me</a></li>
          <li><a href="About.html#education">Education</a></li>
          <li><a href="About.html#myWorks">Project</a></li>
          <li><a href="About.html#contact">Contact</a></li>
      </ul>
  </nav>
-    <h1>Pavithrani Perera</h1>
+    <h1 class="my-name">Pavithrani Perera</h1>
 </header>
 <!--middle content of website page-->
 <main>
